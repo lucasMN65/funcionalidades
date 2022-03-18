@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Baskervville:ital@1 & display=swap');
+@font-face {
+    font-family:'externa';
+    src: url(CELTG___.TTF) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url(img/pexels-shawn-stutzman-1010496.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 3px black;
+}
+.grid{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posi-header{
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    text-transform: uppercase;
+    font-style: initial;
+    font-family:'Baskervville';
+    font-size: 20px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.im img{
+    height: 70px;
+}
+.menu a:hover{
+    color: lightskyblue;
+    transition-duration: 0.5s;
+}
+.barras{
+    width: 50px;
+    display: none;
+}
+.banner{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.pacote{
+    width: 100%;
+    padding-bottom: 40px;
+    height: 300px;
+}
+.banner .pacote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pacote .got{
+    font-family: 'externa', Times, serif;
+    color: blue;
+    font-size: 200px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.pacote .cadastro{
+    background-color: blue;
+    width: 260px;
+    height: 75px;
+    margin-left: 21%;
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    border-style: ridge;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562);
+    padding-left: 10px;
+    text-decoration: none;
+}
+.cadastro:hover{
+    transition-duration: 2.5s;
+    color: aqua;
+}
+.secao{
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    height: 480px;
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.226), transparent, rgba(0, 0, 255, 0.308));
+    border-radius: 3px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.692);
+    
+}
+.textoh{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'externa', Times, serif;
+    font-size: 70px;
+    color: blue;
+}
+.secao p{
+    font-family: "externa";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.descricao a{
+    text-decoration: none;
+    color: aqua;
+}
+.carrosel{
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carrosel img{
+    display: none;
+}
+.a-ativo{
+    display: flex;
+}
+
+.secao3{
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    height: 250px;
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.226), transparent, rgba(0, 0, 255, 0.308));
+    border-radius: 3px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.692);
+}
+.secao3 .txt{
+    font-family: 'externa', Times, serif;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.secao3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+footer{
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.226), transparent, black);
+    width: 100%;
+    height: 300px;
+}
+.m1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.m1 h3{
+    font-size: 25px;
+    font-family: 'externa', Times, serif;
+    color: blue;
+}
+.m1 a{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.m1 a:hover{
+    color: blue;
+    transition-duration: 0.5s;
+}
+.m2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.m2 h3{
+    font-size: 25px;
+    font-family: 'externa', Times, serif;
+    color: blue;
+}
+.m2 a{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.m2 a:hover{
+    color: blue;
+    transition-duration: 0.5s;
+}
+.m3 form{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.m3 input[type="email"]{
+    height: 30px;
+    width: 200px;
+
+}
+.m3 button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .grid{
+        width: 100%;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px){  
+    .menu a{
+        font-size: 10px;
+    }
+    .pacote .got{
+        font-size: 150px;
+    }
+    .pacote .cadastro{
+        width: 240px;
+        height: 75px;
+        margin-left: 15%;
+        margin-bottom: 50px;
+        font-size: 32px;
+        padding-left: 10px;
+    }
+    .textoh{
+        font-size: 40px;
+    }
+    .secao3 .txt{
+        font-size: 40px;
+    }
+    .secao3 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #somi{
+        display: none;
+    }
+    footer{
+        height: 500px;
+    }
+    .m3 form{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px){
+    .barras{
+        display: inline-block;
+    } 
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250;
+        justify-items: center;
+        position: absolute;
+        right: 50px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-ativo{
+        display: flex;
+    }
+    
+}
+
+
